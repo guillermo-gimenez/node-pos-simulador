@@ -1,11 +1,11 @@
 # Node POS Simulador
 
-Este proyecto simula un servicio web de un sistema de punto de venta (POS) utilizando Node.js y Express. A continuación se detallan las instrucciones para instalar y ejecutar la aplicación.
+Este proyecto simula un servicio web de un sistema de punto de venta (POS) utilizando Node.js **sin frameworks externos** (no usa Express). A continuación se detallan las instrucciones para instalar y ejecutar la aplicación.
 
 ## Requisitos
 
 - Node.js (v14 o superior)
-- npm (v6 o superior)
+- npm (opcional, solo si quieres gestionar dependencias)
 
 ## Instalación
 
@@ -16,11 +16,7 @@ Este proyecto simula un servicio web de un sistema de punto de venta (POS) utili
    cd node-pos-simulador
    ```
 
-2. Instala las dependencias:
-
-   ```
-   npm install express body-parser
-   ```
+2. No es necesario instalar dependencias, ya que solo se utiliza el módulo `http` nativo de Node.js.
 
 ## Ejecución
 
